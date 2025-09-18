@@ -1,0 +1,110 @@
+.vegetables-page {
+  margin-top: -280px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7fafc;
+  color: #222;
+  min-height: 100vh;   /* full height */
+  overflow-y: auto;    /* enable vertical scrolling */
+}
+
+.gallery-section {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 110px 24px 36px 24px;   /* top padding = navbar height + extra */
+}
+.gallery-section h2 {
+  margin-bottom: 28px;
+  color: #047857;
+  font-size: 1.7rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 32px;
+  justify-items: center;
+}
+.veg-card {
+  width: 230px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 2px 14px rgba(5,150,105,0.13);
+  text-align: center;
+  padding:24px 16px 32px 16px;
+}
+.veg-card img {
+  width: 95px;
+  height: 92px;
+  border-radius: 14px;
+  object-fit: cover;
+  margin-bottom: 16px;
+  background: #f3ffe8;
+}
+.veg-card h3 {
+  margin-top: 0;
+  color: #059669;
+  font-size: 1.2rem;
+}
+.veg-card p {
+  font-size: 0.97rem;
+  color: #333;
+  min-height: 42px;
+}
+
+.buy-btn {
+  margin-top: 14px;
+  padding: 10px 28px;
+  background: #059669;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.buy-btn:hover {
+  background: #047857;
+}
+
+/* Modal styling */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.16);
+}
+.modal-content {
+  background: #fff;
+  margin: 12% auto;
+  padding: 40px 30px 26px 30px;
+  border-radius: 18px;
+  max-width: 330px;
+  text-align: center;
+  box-shadow: 0 4px 32px rgba(5,150,105,0.18);
+}
+.close {
+  position: absolute;
+  right: 20px; top: 16px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #aaa;
+}
+.close:hover { color: #222; }
+.modal-ok-btn {
+  margin-top: 18px;
+  padding: 10px 34px;
+  background: #059669;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.modal-ok-btn:hover { background: #047857; }

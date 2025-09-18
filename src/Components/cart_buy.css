@@ -1,0 +1,115 @@
+.cart-page {
+  margin-top: -290px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6fff7;
+  padding-top: 260px;
+}
+.header {
+  background: #a7f3d0;
+  padding: 24px 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+}
+.header h1 {
+  color: #059669;
+  font-size: 2.1rem;
+  margin-bottom: 0;
+}
+.img1 {
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+nav a {
+  margin: 0 18px;
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+nav a.active, nav a:hover {
+  background-color: #bbf7d0;
+  color: #047857;
+}
+.cart-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+.cart-section h2 {
+  color: #047857;
+  text-align: center;
+}
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.cart-table th, .cart-table td {
+  padding: 14px;
+  text-align: center;
+}
+.cart-table th {
+  background: #f9fafb;
+  color: #222;
+  font-weight: bold;
+}
+.cart-table tr {
+  background: #fff;
+  border-radius: 12px;
+}
+.cart-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+input[type="number"] {
+  width: 48px;
+  padding: 4px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #a8dadc;
+}
+.remove-btn {
+  background: none;
+  border: none;
+  color: #e63946;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.cart-summary {
+  background: #e6fbf4;
+  border-radius: 14px;
+  padding: 32px 30px 24px 30px;
+  max-width: 340px;
+  margin: 40px auto 0;
+  text-align: left;
+  box-shadow: 0 2px 14px rgba(5,150,105,0.08);
+}
+.cart-summary h3 {
+  color: #059669;
+  margin-bottom: 18px;
+}
+.cart-summary p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+.checkout-btn {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px 0;
+  background: #059669;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.18rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.checkout-btn:hover {
+  background: #047857;
+}

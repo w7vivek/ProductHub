@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7fafc;
+  color: #222;
+  line-height: 1.6;
+}
+
+.header {
+  background: #a7f3d0;
+  padding: 30px 0;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #059669;
+  font-weight: bold;
+}
+
+.img1 {
+  width: 140px;
+  height: 140px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+nav {
+  margin-top: 12px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 20px;
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 9px;
+  transition: background 0.2s, color 0.2s;
+  font-size: 1.1rem;
+}
+
+nav a.active,
+nav a:hover {
+  background-color: #bbf7d0;
+  color: #047857;
+}
+
+.about-page {
+  max-width: 860px;
+  margin: 44px auto;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 24px rgba(5, 150, 105, 0.15);
+  padding: 38px 48px;
+}
+
+.about-section h2 {
+  color: #047857;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.about-section p {
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.about-section ul {
+  list-style-type: disc;
+  margin-left: 1.4em;
+  margin-bottom: 20px;
+}
+
+.about-section ul li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+.about-section a {
+  color: #059669;
+  text-decoration: none;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .about-page {
+    margin: 32px 12px;
+    padding: 28px 24px;
+  }
+  .header .logo {
+    position: static;
+    display: block;
+    margin: 0 auto 12px auto;
+  }
+  nav a {
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+}
