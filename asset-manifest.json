@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ProductHub/static/css/main.5d571d31.css",
+    "main.js": "/ProductHub/static/js/main.c5a1c5e8.js",
+    "static/js/453.d5f2c00b.chunk.js": "/ProductHub/static/js/453.d5f2c00b.chunk.js",
+    "static/media/logo.png": "/ProductHub/static/media/logo.12d3867dc3209cb9d6e5.png",
+    "static/media/discount.png": "/ProductHub/static/media/discount.c6ad8275430b415b5e77.png",
+    "static/media/vegetables.jpeg": "/ProductHub/static/media/vegetables.f0f943422c499536e0a2.jpeg",
+    "static/media/Fruits.jpeg": "/ProductHub/static/media/Fruits.7d6586d32a772364a7e7.jpeg",
+    "static/media/potato.jfif": "/ProductHub/static/media/potato.eb76f3d5a80f9b90b2ab.jfif",
+    "index.html": "/ProductHub/index.html",
+    "main.5d571d31.css.map": "/ProductHub/static/css/main.5d571d31.css.map",
+    "main.c5a1c5e8.js.map": "/ProductHub/static/js/main.c5a1c5e8.js.map",
+    "453.d5f2c00b.chunk.js.map": "/ProductHub/static/js/453.d5f2c00b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d571d31.css",
+    "static/js/main.c5a1c5e8.js"
+  ]
+}
